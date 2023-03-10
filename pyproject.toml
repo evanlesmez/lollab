@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "lollab"
+version = "0.1.0"
+description = ""
+authors = ["Evan Lesmez <evanl@animalequality.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.1"
+python-dotenv = "^1.0.0"
+pandas = "^1.5.3"
+tqdm = "^4.65.0"
+fastai = "^2.7.11"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1.1"
+black = "^23.1.0"
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
